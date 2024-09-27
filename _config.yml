@@ -1,12 +1,19 @@
-theme: jekyll-theme-minimal
-title: Giovanni Saraceno's homepage
-description: Webpage
-lsi: false
-safe: true
-incremental: false
-highlighter: rouge
-gist:
-  noscript: false
-kramdown:
-  math_engine: mathjax
-  syntax_highlighter: rouge
+title: "Giovanni Saraceno"
+description: "Personal webpage"
+theme: jekyll-theme-cayman
+author: "Giovanni Saraceno"
+
+# Navigation menu
+nav:
+  - title: "About Me"
+    url: "/about_me/"
+  - title: "Research"
+    url: "/research/"
+  - title: "Teaching"
+    url: "/teaching/"
+  - title: "Software"
+    url: "/software/"
+  - title: "Publications"
+    url: "/publications/"
+  - title: "CV"
+    url: "/cv/"
