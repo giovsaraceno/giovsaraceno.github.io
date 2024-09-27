@@ -1,3 +1,12 @@
 theme: jekyll-theme-minimal
 title: Giovanni Saraceno's homepage
 description: Webpage
+lsi: false
+safe: true
+incremental: false
+highlighter: rouge
+gist:
+  noscript: false
+kramdown:
+  math_engine: mathjax
+  syntax_highlighter: rouge
