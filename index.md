@@ -5,22 +5,14 @@ layout: default
 
 # Welcome to My Personal Webpage
 
-Hi, I'm Giovanni Saraceno, a researcher focused on [your research areas]. This site showcases my research, publications, software, and teaching activities.
+Hi, I'm Giovanni Saraceno, a Post-Doctoral Associate at the University at Buffalo
 
 ## Research Interests
+- Robust Statistics
+- Kernel methods
 - Machine Learning
-- Periodontitis Studies
-- Kernel Methods
+- Directional Statistics
 
 ## Contact Information
-- Email: giovanni@example.com
+- Email: gsaracen@buffalo.edu
 - GitHub: [giovsaraceno](https://github.com/giovsaraceno)
-
-## Quick Links
-
-- [About Me](about_me)
-- [Research](research)
-- [Teaching](teaching)
-- [Software](software)
-- [Publications](publications)
-- [CV](cv)

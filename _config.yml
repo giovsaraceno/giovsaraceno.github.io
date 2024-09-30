@@ -1,7 +1,11 @@
 title: "Giovanni Saraceno"
 description: "Personal webpage"
-theme: jekyll-theme-cayman
+theme: jekyll-theme-awesome
 author: "Giovanni Saraceno"
+
+markdown: kramdown
+kramdown:
+  input: GFM
 
 # Navigation menu
 nav:
@@ -9,8 +13,6 @@ nav:
     url: "/about_me/"
   - title: "Research"
     url: "/research/"
-  - title: "Teaching"
-    url: "/teaching/"
   - title: "Software"
     url: "/software/"
   - title: "Publications"
