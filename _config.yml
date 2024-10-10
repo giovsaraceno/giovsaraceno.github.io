@@ -1,11 +1,10 @@
 title: "Giovanni Saraceno"
-description: "Personal webpage"
-theme: jekyll-theme-minimal
-author: "Giovanni Saraceno"
+description: Research, Software, and Teaching
+author: Giovanni Saraceno
+url: "https://giovsaraceno.github.io"
+baseurl: "/"
 
 markdown: kramdown
-kramdown:
-  input: GFM
 
 # Navigation menu
 nav:
