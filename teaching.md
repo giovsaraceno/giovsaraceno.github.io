@@ -3,6 +3,7 @@ title: "Teaching"
 layout: default
 permalink: /teaching/
 ---
+| [Home](index.md) | [Research](research.md) | [Software](software.md) | [Teaching](teaching.md) |
 
 # Teaching
 

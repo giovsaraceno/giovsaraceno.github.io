@@ -4,14 +4,14 @@ layout: default
 ---
 | [Home](index.md) | [Research](research.md) | [Software](software.md) | [Teaching](teaching.md) |
 
-![Profile Photo](IMG20240811063902.jpg)
+![Profile Photo](images/segesta_theater.jpg)
 
 Hi, I'm Giovanni Saraceno
 
 
 ## Contact Information
 
-**Email**: giovanni.saraceno@unipd.it
+**Email**: giovanni.saraceno@unipd.it \
            gsaracen@buffalo.edu
 
 - [@GitHub](https://github.com/giovsaraceno)
@@ -19,6 +19,6 @@ Hi, I'm Giovanni Saraceno
 - [@ResearchGate](https://www.researchgate.net/profile/Giovanni-Saraceno)
 - [@GoogleScholar](https://scholar.google.com/citations?user=oYse7v4AAAAJ)
 
-[Department of Statistical Sciences, University of Padova](https://www.stat.unipd.it/)
-Via Cesare Battisti, 241 - 35121 Padova
+[Department of Statistical Sciences, University of Padova](https://www.stat.unipd.it/) \
+Via Cesare Battisti, 241 - 35121 Padova \
 Office 156

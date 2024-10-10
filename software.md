@@ -4,6 +4,8 @@ layout: default
 permalink: /software/
 ---
 
+| [Home](index.md) | [Research](research.md) | [Software](software.md) | [Teaching](teaching.md) |
+
 # Software
 
 - `QuadratiK` \
