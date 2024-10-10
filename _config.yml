@@ -8,13 +8,10 @@ markdown: kramdown
 
 # Navigation menu
 nav:
-  - title: "About Me"
-    url: "/about_me/"
   - title: "Research"
     url: "/research/"
   - title: "Software"
     url: "/software/"
-  - title: "Publications"
-    url: "/publications/"
-  - title: "CV"
-    url: "/cv/"
+  - title: "Teaching"
+    url: "/teaching/"
+ 
