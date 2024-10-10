@@ -4,7 +4,6 @@ permalink: /teaching/
 ---
 | [Home](index.md) | [Research](research.md) | [Software](software.md) | [Teaching](teaching.md) |
 
-# Teaching
 
 - 2019–2020 | **Teaching Assistant** of "Matematica e Statistica II", Bachelor course in Biomolecular Sciences and Technology, CIBIO, University of Trento (teacher: Prof. S.Mazzucchi)
   2020-2021 |

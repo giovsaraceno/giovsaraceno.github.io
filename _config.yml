@@ -1,4 +1,3 @@
-title: "Giovanni Saraceno"
 description: Research, Software, and Teaching
 author: Giovanni Saraceno
 url: "https://giovsaraceno.github.io"
@@ -6,12 +5,4 @@ baseurl: "/"
 
 markdown: kramdown
 
-# Navigation menu
-nav:
-  - title: "Research"
-    url: "/research/"
-  - title: "Software"
-    url: "/software/"
-  - title: "Teaching"
-    url: "/teaching/"
  

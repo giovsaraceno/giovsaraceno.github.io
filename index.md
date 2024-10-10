@@ -1,5 +1,4 @@
 ---
-title: "Giovanni Saraceno"
 output: 
   html_document: 
     toc: no
