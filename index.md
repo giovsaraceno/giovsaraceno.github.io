@@ -1,5 +1,6 @@
 ---
 # title: Giovanni Saraceno
+layout: default
 description: Personal Webpage 
 output: 
   html_document: 
