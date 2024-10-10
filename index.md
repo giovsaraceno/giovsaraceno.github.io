@@ -1,8 +1,8 @@
 ---
 output: 
   html_document: 
-    toc: no
-    # toc_float: yes
+    # toc: no
+    toc_float: yes
 ---
 | [Home](index.md) | [Research](research.md) | [Software](software.md) | [Teaching](teaching.md) |
 
