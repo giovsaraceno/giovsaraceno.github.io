@@ -2,7 +2,7 @@
 output: 
   html_document: 
     toc: no
-    toc_float: yes
+    # toc_float: yes
 ---
 | [Home](index.md) | [Research](research.md) | [Software](software.md) | [Teaching](teaching.md) |
 
@@ -13,8 +13,7 @@ Hi, I'm Giovanni Saraceno
 
 ## Contact Information
 
-**Email**: giovanni.saraceno@unipd.it \
-           gsaracen@buffalo.edu
+**Email**: giovanni.saraceno@unipd.it 
 
 - [@GitHub](https://github.com/giovsaraceno)
 - [@Orcid](https://orcid.org/0000-0002-1753-2367)
