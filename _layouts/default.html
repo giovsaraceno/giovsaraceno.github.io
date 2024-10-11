@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Teaching</title>
-  <link rel="stylesheet" href="/assets/css/style.css">
+  <title>{{ page.title }}</title>
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Handlee&display=swap" rel="stylesheet">
@@ -25,26 +25,7 @@
   <!-- Main content without the site title link -->
   <div class="content-container">
     <main>
-      <h2 id="courses-aa-20242025">Courses A.A. 2024/2025</h2>
-
-<h3 class="title-section">Statistics for Neuroscience - Level A</h3>
-<p class="description"><em>Ph.D. in Neuroscience, Padova Neuroscience Center, University of Padova</em></p>
-
-<h3 class="title-section">Matematica e Statistica</h3>
-<p class="description"><em>Laurea in Biotecnologie, Dipartimento di Biologia, Università di Padova</em></p>
-
-<h2 id="past-courses">Past Courses</h2>
-<table class="teaching-table">
-  <tr>
-    <td>2019–2020 <br /> 2020–2021</td>
-    <td><strong>Teaching Assistant</strong> of "Matematica e Statistica II", Bachelor course in Biomolecular Sciences and Technology, CIBIO, University of Trento (teacher: Prof. S.Mazzucchi)</td>
-  </tr>
-  <tr>
-    <td>2020–2021</td>
-    <td><strong>Teaching Assistant</strong> of "Geometria e Algebra Lineare con elementi di Statistica", Bachelor Course in Civil Engineering, DICAM, University of Trento (teacher: Prof. C.Agostinelli)</td>
-  </tr>
-</table>
-
+      {{ content }}
     </main>
   </div>
 

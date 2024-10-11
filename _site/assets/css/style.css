@@ -1,24 +1,168 @@
-/* Styling for navigation links */
+/* Header container styles */
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Adjusts position: center, left, or right */
+    padding: 10px;
+    background-color: #ffffff; /* Background color for the header */
+    font-family: "Handlee", cursive;
+    border-top: 7px solid #137727; /* Thin top border */
+    border-bottom: 1px solid #ddd; /* Thin bottom border */
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); /* Optional subtle shadow */
+    height: 50px;
+}
+  
+/* Site name styles */
+.site-name {
+    margin-right: 200px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333; /* Adjust text color */
+}
+  
+/* Navigation links styles */
 .nav-links {
     display: flex;
     gap: 10px;
-    justify-content: center;
+    justify-content: right;
     margin: 20px 0;
-  }
-  
-  .nav-links a {
+}
+
+.nav-links a {
     padding: 10px 20px;
-    background-color: #f5f5f5; /* Light gray background */
-    color: #333; /* Dark text color */
+    background-color: #ffffff;
+    color: #333;
     text-decoration: none;
     border-radius: 5px;
     transition: background-color 0.3s ease;
-    font-family: Arial, sans-serif;
-    font-size: 16px;
+    font-family: "Handlee", cursive;
+    font-size: 24px;
+}
+
+.nav-links a:hover {
+    background-color: #333;
+    color: #fff;
+}
+  
+.handlee-regular {
+    font-family: "Handlee", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.roboto-light {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+/* Center and style the content container */
+.content-container {
+    max-width: 900px; /* Limits width to 800px; adjust as needed */
+    margin: 0 auto; /* Centers the content */
+    padding: 20px;
+    line-height: 1.6;
+    font-family:  "Roboto", sans-serif;
+    border-radius: 0;
+    box-shadow: none;
+    border-width: 0;
+    background-color: transparent;
+}
+  
+/* Optional: Adjust the <main> tag styles */
+main {
+    background-color: #ffffff; /* Light background color for contrast */
+    padding: 20px;
+    border-radius: 0;
+    box-shadow: none;
+}
+  
+/* Set the page background to white */
+body {
+    background-color: #ffffff;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    border-radius: 0;
+}
+  
+/* Footer styling for side-by-side layout */
+.site-footer {
+    display: flex;
+    justify-content: center; /* Aligns left and right sections */
+    padding: 30px 0;
+    background-color: #f5f5f5; /* Light gray background */
+    border-top: 1px solid #137727;
+    font-size: 14px;
+}
+
+/* Container to match the content width */
+.footer-container {
+    max-width: 800px; /* Same as your content width */
+    width: 100%;
+    display: flex;
+    line-height: 1.5;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.footer-left {
+    width: 40%; /* More space for the left section */
+    text-align: left;
+}
+  
+.footer-right {
+    width: 30%; /* Reduced width for the right section */
+}
+  
+.footer-left p, .footer-right p {
+    margin: 0; /* Removes extra margin around paragraphs */
+    line-height: 1.5;
+}
+
+.footer-left a {
+    color: #0073e6; /* Example color for the link */
+    text-decoration: underline; /* Optional underline to indicate a link */
+}
+
+.footer-left a:hover {
+    color: #005bb5; /* Darker color on hover */
+    text-decoration: none; /* Optional: remove underline on hover */
+}
+
+.site-footer a {
+    color: #005bb5;
+    text-decoration: none;
+}
+  
+.site-footer a:hover {
+    text-decoration: underline;
+}
+  
+.teaching-table {
+    max-width: 900px;
+    border-collapse: collapse;
+    margin-top: 20px;
   }
   
-  .nav-links a:hover {
-    background-color: #333; /* Dark background on hover */
-    color: #fff; /* Light text color on hover */
-  }
+.teaching-table td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    vertical-align: top;
+}
+
+.teaching-table td:first-child {
+    width: 15%; /* Increase this value as needed */
+    color: #333;
+}
+
+/* Custom class for tighter spacing */
+.title-section {
+    margin-bottom: 0;
+}
+  
+.description {
+    margin-top: 5px;
+    font-size: 16px;
+    line-height: 0.8;
+}
   

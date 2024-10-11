@@ -4,8 +4,6 @@ title: "Research"
 permalink: /research/
 ---
 
-| [Home](index.md) | [Research](research.md) | [Software](software.md) | [Teaching](teaching.md) |
-
 # Research interests
 
 My research focuses on topics such as:
