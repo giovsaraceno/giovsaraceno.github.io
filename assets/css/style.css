@@ -9,7 +9,7 @@
     border-top: 7px solid #137727; /* Thin top border */
     border-bottom: 1px solid #ddd; /* Thin bottom border */
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); /* Optional subtle shadow */
-    height: 50px;
+    height: 70px;
     margin: 0 auto; /* Centers the header on the page */
     width: 100%;
 }
