@@ -2,6 +2,10 @@
 layout: default
 title: "Research"
 permalink: /research/
+output: 
+  html_document: 
+    toc: yes
+    toc_float: yes
 ---
 
 # Research interests

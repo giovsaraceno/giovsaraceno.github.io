@@ -13,12 +13,15 @@
 <body>
   <!-- Navigation links -->
   <header class="header-container">
-    <span class="site-name">Giovanni Saraceno</span>
-    <div class="nav-links">
-      <a href="/index">Home</a>
-      <a href="/research">Research</a>
-      <a href="/software">Software</a>
-      <a href="/teaching">Teaching</a>
+    <div class="header-content">
+      <span class="site-name">Giovanni Saraceno</span>
+      <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+      <div class="nav-links">
+        <a href="/index">Home</a>
+        <a href="/research">Research</a>
+        <a href="/software">Software</a>
+        <a href="/teaching">Teaching</a>
+      </div>
     </div>
   </header>
   
@@ -28,18 +31,22 @@
       <h2 id="quadratik">QuadratiK</h2>
 
 <p>Implementation in <em>R</em> and <em>Python</em> of a comprehensive set of goodness-of-fit tests and a clustering technique for <em>d</em>-dimensional spherical data <em>d &gt; 1</em> using kernel-based quadratic distances. it includes: Test for multivariate normality, test for uniformity on the d-dimensional Sphere, non-parametric two- and k-sample tests, random generation of points from the Poisson kernel-based density and clustering algorithm for spherical data. <br />
-<strong>Role</strong>: Maintainer<br />
-<strong>GitHub repository</strong>: <a href="https://github.com/giovsaraceno/QuadratiK-package">QuadratiK on GitHub</a> <br />
+<strong>Role</strong>: Maintainer</p>
+<h4 id="resources">Resources</h4>
+<p><strong>GitHub repository</strong>: <a href="https://github.com/giovsaraceno/QuadratiK-package">QuadratiK on GitHub</a> <br />
 <strong>CRAN Package</strong>: <a href="https://cran.r-project.org/package=QuadratiK">QuadratiK on CRAN</a> <br />
 <strong>Package site</strong>: <a href="https://giovsaraceno.github.io/QuadratiK-package/">QuadratiK documantation</a> <br />
 <strong>Python package</strong>: <a href="https://pypi.org/project/QuadratiK/">QuadratiK on PyPI</a> <br />
 The package is also available as a <strong>Dashboard application</strong>. Please find the usage instruction <a href="https://quadratik.readthedocs.io/en/latest/user_guide/dashboard_application_usage.html">here</a>.</p>
 
+<hr />
+
 <h2 id="robustsur">robustsur</h2>
 
 <p>Robust Estimation for Seemingly Unrelated Regression (SUR) Models. <br />
-<strong>Role</strong>: Author <br />
-<strong><a href="https://cran.r-project.org/web/packages/robustsur/index.html">CRAN Package</a></strong></p>
+<strong>Role</strong>: Author</p>
+<h4 id="resources-1">Resources</h4>
+<p><strong><a href="https://cran.r-project.org/web/packages/robustsur/index.html">CRAN Package</a></strong></p>
 
     </main>
   </div>
@@ -57,5 +64,11 @@ The package is also available as a <strong>Dashboard application</strong>. Pleas
     </div>
   </footer>
   
+  <script>
+    function toggleMenu() {
+      const navLinks = document.querySelector('.nav-links');
+      navLinks.classList.toggle('show'); // Toggles the 'show' class
+    }
+  </script>
 </body>
 </html>

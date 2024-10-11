@@ -2,30 +2,45 @@
 .header-container {
     display: flex;
     align-items: center;
-    justify-content: center; /* Adjusts position: center, left, or right */
-    padding: 10px;
+    justify-content: space-between; /* Adjusts position: center, left, or right */
+    padding: 20px;
     background-color: #ffffff; /* Background color for the header */
     font-family: "Handlee", cursive;
     border-top: 7px solid #137727; /* Thin top border */
     border-bottom: 1px solid #ddd; /* Thin bottom border */
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); /* Optional subtle shadow */
-    height: 50px;
+    height: 70px;
+    margin: 0 auto; /* Centers the header on the page */
+    width: 100%;
 }
-  
-/* Site name styles */
-.site-name {
-    margin-right: 200px;
+
+/* Centered header content */
+.header-content {
+    max-width: 1500px; /* Adjust as needed for content width */
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+.menu-toggle {
+    display: none; /* Hidden by default */
     font-size: 24px;
-    font-weight: bold;
-    color: #333; /* Adjust text color */
+    background-color: #f5f5f5; /* Box background color */
+    border: 1px solid #ddd; /* Border for the box */
+    border-radius: 5px; /* Optional: rounded corners */
+    padding: 15px; /* Spacing inside the box */
+    cursor: pointer;
+    position: absolute;
+    right: 20px;
+    top: 10px;
 }
-  
+
 /* Navigation links styles */
 .nav-links {
     display: flex;
     gap: 10px;
-    justify-content: right;
-    margin: 20px 0;
 }
 
 .nav-links a {
@@ -42,6 +57,58 @@
 .nav-links a:hover {
     background-color: #333;
     color: #fff;
+}
+
+/* Example media query for mobile screens */
+@media (max-width: 600px) {
+    .header-container {
+        position: relative;
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+        width: 100%;
+    }
+
+    .header-content {
+        position: relative;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .site-name {
+        font-size: 20px; /* Reduce font size on mobile */
+        margin-bottom: 10px; /* Add spacing between title and nav */
+    }
+    
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        gap: 10px; /* Reduce spacing between links */
+        position: absolute;
+        top: 50px; /* Adjust based on header height */
+        right: 20px;
+        background-color: #f5f5f5;
+        padding: 10px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    .menu-toggle {
+        display: block; /* Show the menu toggle button */
+        position: absolute;
+        right: 20px;
+        top: 10px;
+    }
+
+    .nav-links.show {
+        display: flex; /* Show the menu when activated */
+    }
+}
+
+/* Site name styles */
+.site-name {
+    font-size: 24px;
 }
   
 .handlee-regular {
@@ -165,4 +232,5 @@ body {
     font-size: 16px;
     line-height: 0.8;
 }
+  
   

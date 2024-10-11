@@ -2,6 +2,10 @@
 layout: default
 title: "Teaching"
 permalink: /teaching/
+output: 
+  html_document: 
+    toc: yes
+    toc_float: yes
 ---
 ## Courses A.A. 2024/2025
 

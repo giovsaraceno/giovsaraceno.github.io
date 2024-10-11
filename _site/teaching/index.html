@@ -13,12 +13,15 @@
 <body>
   <!-- Navigation links -->
   <header class="header-container">
-    <span class="site-name">Giovanni Saraceno</span>
-    <div class="nav-links">
-      <a href="/index">Home</a>
-      <a href="/research">Research</a>
-      <a href="/software">Software</a>
-      <a href="/teaching">Teaching</a>
+    <div class="header-content">
+      <span class="site-name">Giovanni Saraceno</span>
+      <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+      <div class="nav-links">
+        <a href="/index">Home</a>
+        <a href="/research">Research</a>
+        <a href="/software">Software</a>
+        <a href="/teaching">Teaching</a>
+      </div>
     </div>
   </header>
   
@@ -61,5 +64,11 @@
     </div>
   </footer>
   
+  <script>
+    function toggleMenu() {
+      const navLinks = document.querySelector('.nav-links');
+      navLinks.classList.toggle('show'); // Toggles the 'show' class
+    }
+  </script>
 </body>
 </html>
