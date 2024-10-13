@@ -49,7 +49,7 @@ My research focuses on topics such as:
 
 - Greco L., **Saraceno G.** and Agostinelli C. (2021), *Robust Fitting of a Wrapped Normal model to Multivariate Circular Data and Outlier Detection*, Stat, 4(2), 454-471. [doi:10.3390/stats4020028](https://www.mdpi.com/2571-905X/4/2/28). [pdf📄](/papers/stats-04-00028-v2.pdf)
 
-- **Saraceno G.**, Alqallaf F., Agostinelli C. (2021), *A Robust Seemingly Unrelated Regressions For Row-Wise And Cell-Wise Contamination*, [arXiv:2107.00975](https://doi.org/10.48550/arXiv.2107.00975). [pdf📄](/papers/arXiv_sur.pdf)
+- **Saraceno G.**, Alqallaf F., Agostinelli C. (2021), *A Robust Seemingly Unrelated Regressions For Row-Wise And Cell-Wise Contamination*, [arXiv:2107.00975](https://doi.org/10.48550/arXiv.2107.00975). [pdf📄](/papers/2107.00975v1.pdf)
 
 # [Conferences](#conferences)
 
