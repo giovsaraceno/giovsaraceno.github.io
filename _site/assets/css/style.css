@@ -106,6 +106,10 @@
     .nav-links.show {
         display: flex; /* Show the menu when activated */
     }
+
+    .toc-sidebar {
+        display: none; /* Hide the TOC sidebar on small screens */
+    }
 }
 
 /* Site name styles */
@@ -235,4 +239,39 @@ body {
     line-height: 0.8;
 }
   
+/* Style the TOC sidebar */
+.toc-sidebar {
+    position: fixed;
+    top: 150px; /* Adjust to fit your layout */
+    left: 20px; /* Position on the left side */
+    width: 180px;
+    line-height: 10px;
+    background-color: #ffffff;
+    padding: 15px;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+  
+.toc-sidebar h3 {
+    margin-top: 0;
+}
+  
+.toc-sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+  
+.toc-sidebar li {
+    margin-bottom: 10px;
+}
+  
+.toc-sidebar a {
+    text-decoration: none;
+    color: #333;
+}
+  
+.toc-sidebar a:hover {
+    text-decoration: underline;
+}
   

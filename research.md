@@ -8,7 +8,16 @@ output:
     toc_float: yes
 ---
 
-# Research interests
+<div class="toc-sidebar">
+  <h3>Contents</h3>
+  <ul>
+    <li><a href="#interests">Research interests</a></li>
+    <li><a href="#publications">Publications</a></li>
+    <li><a href="#conferences">Conferences</a></li>
+  </ul>
+</div>
+
+# [Research interests](#interests)
 
 My research focuses on topics such as:
 - Robust Statistics
@@ -18,7 +27,7 @@ My research focuses on topics such as:
 - Neural Networks
 - Statistics for Neuroscience
 
-# Publications
+# [Publications](#publications)
 
 - Markatou, M. and **Saraceno, G.** (2024). *A Unified Framework for Multivariate Two- and k-Sample Kernel-based Quadratic Distance Goodness-of-Fit Tests.* [arXiv:2407.16374](https://doi.org/10.48550/arXiv.2407.16374). [pdf📄](/papers/2407.16374v1.pdf)
 
@@ -42,7 +51,7 @@ My research focuses on topics such as:
 
 - **Saraceno G.**, Alqallaf F., Agostinelli C. (2021), *A Robust Seemingly Unrelated Regressions For Row-Wise And Cell-Wise Contamination*, [arXiv:2107.00975](https://doi.org/10.48550/arXiv.2107.00975). [pdf📄](/papers/arXiv_sur.pdf)
 
-# Conferences
+# [Conferences](#conferences)
 
 ## Invited
 
