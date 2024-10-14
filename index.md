@@ -24,3 +24,4 @@ Office: 156
 - [@Orcid](https://orcid.org/0000-0002-1753-2367)
 - [@ResearchGate](https://www.researchgate.net/profile/Giovanni-Saraceno)
 - [@GoogleScholar](https://scholar.google.com/citations?user=oYse7v4AAAAJ)
+- [@Scopus](https://www.scopus.com/authid/detail.uri?authorId=57219501191)
