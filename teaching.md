@@ -7,7 +7,21 @@ output:
     toc: yes
     toc_float: yes
 ---
-## Courses A.A. 2024/2025
+
+## Thesis supervision
+- *Stimatori robusti penalizzati per GLM tramite verosimiglianza pesata* (*Robust penalized estimators for GLM using weighted likelihood*), Marco Piccolo, Master degree in Statistics, University of Padova, 2024–2025.
+
+## Courses 
+
+### A.A. 2025/2026
+
+<h3 class="title-section">Statistics for Neuroscience - Level A</h3>
+<p class="description"><em>Ph.D. in Neuroscience, Padova Neuroscience Center, University of Padova</em></p>
+
+<h3 class="title-section">Matematica e Statistica</h3>
+<p class="description"><em>Laurea in Biotecnologie, Dipartimento di Biologia, Università di Padova</em></p>
+
+### A.A. 2024/2025
 
 <h3 class="title-section">Statistics for Neuroscience - Level A</h3>
 <p class="description"><em>Ph.D. in Neuroscience, Padova Neuroscience Center, University of Padova</em></p>
