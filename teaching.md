@@ -15,19 +15,19 @@ output:
 
 ### A.A. 2025/2026
 
-<h3 class="title-section">Statistics for Neuroscience - Level A</h3>
-<p class="description"><em>Ph.D. in Neuroscience, Padova Neuroscience Center, University of Padova</em></p>
+- *Statistics for Neuroscience - Level A*
+  Ph.D. in Neuroscience, Padova Neuroscience Center, University of Padova.
 
-<h3 class="title-section">Matematica e Statistica</h3>
-<p class="description"><em>Laurea in Biotecnologie, Dipartimento di Biologia, Università di Padova</em></p>
+- *Matematica e Statistica*
+  Laurea in Biotecnologie, Dipartimento di Biologia, Università di Padova.
 
 ### A.A. 2024/2025
 
-<h3 class="title-section">Statistics for Neuroscience - Level A</h3>
-<p class="description"><em>Ph.D. in Neuroscience, Padova Neuroscience Center, University of Padova</em></p>
+- *Statistics for Neuroscience - Level A*
+  Ph.D. in Neuroscience, Padova Neuroscience Center, University of Padova.
 
-<h3 class="title-section">Matematica e Statistica</h3>
-<p class="description"><em>Laurea in Biotecnologie, Dipartimento di Biologia, Università di Padova</em></p>
+- *Matematica e Statistica*
+  Laurea in Biotecnologie, Dipartimento di Biologia, Università di Padova.
 
 ## Past Courses
 <table class="teaching-table">
